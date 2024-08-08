@@ -1,4 +1,4 @@
-package TypewiseAlert;
+package TypewiseAlertTest;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyString;
