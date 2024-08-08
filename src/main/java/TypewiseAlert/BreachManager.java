@@ -1,5 +1,8 @@
 package TypewiseAlert;
 
+import TypewiseAlert.Constants.BreachType;
+import TypewiseAlert.Constants.CoolingType;
+
 public class BreachManager {
 
 	public static BreachType inferBreach(double value, double lowerLimit, double upperLimit) {
