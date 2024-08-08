@@ -36,11 +36,4 @@ public class TypewiseAlert
 			output.println("Hi, the temperature is too high\n");
 		}
 	}
-	
-	public static void main(String args[]) {
-		TypewiseAlert alert = new TypewiseAlert();
-		BatteryCharacter battery = alert.new BatteryCharacter();
-		battery.coolingType = CoolingType.HI_ACTIVE_COOLING;
-		checkAndAlert(AlertTarget.TO_EMAIL, battery, 50);
-	}
 }
