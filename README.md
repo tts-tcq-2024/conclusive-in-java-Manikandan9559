@@ -42,7 +42,7 @@ You have seen a few workflows in this repository. They are quality-gates to prev
 
 During the next four weeks, what improvement do you plan in your code-quality practice? (in your regular work, not in this repository!)
 
-**1. Follow Single-responsibility principle and make methods Single responsible.**
+**1. Follow Single responsibility principle and make methods Single responsible.**
 **2. Reduce both CNN and Cognitive complexity in existing code.**
 **3. Write test cases which are effective, not just for coverage percentage.**
 **4. Maintain classes with relavant methods and functionalities only.**
