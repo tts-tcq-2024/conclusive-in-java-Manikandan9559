@@ -1,5 +1,9 @@
 package TypewiseAlert;
 
+import TypewiseAlert.Constants.AlertTarget;
+import TypewiseAlert.Constants.BreachType;
+import TypewiseAlert.Constants.CoolingType;
+
 public class TypewiseAlert 
 {
     private static FormatOutput output = new PrintOutput();
