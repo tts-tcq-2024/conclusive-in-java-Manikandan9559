@@ -8,7 +8,7 @@ public class TypewiseAlert
 {
     	private static FormatOutput output = new PrintOutput();
 
-	private class BatteryCharacter {
+	public class BatteryCharacter {
 		public CoolingType coolingType;
 	}
 	
