@@ -41,6 +41,7 @@ Think about guiding refactoring-work in your regular/project teams. Think of the
 You have seen a few workflows in this repository. They are quality-gates to prevent duplication, control complexity and prove functionality. Do you think some of them have potential to guide code-improvements in your team? **yes**
 
 During the next four weeks, what improvement do you plan in your code-quality practice? (in your regular work, not in this repository!)
+
 **1. Follow Single-responsibility principle and make methods Single responsible.**
 **2. Reduce both CNN and Cognitive complexity in existing code.**
 **3. Write test cases which are effective, not just for coverage percentage.**
