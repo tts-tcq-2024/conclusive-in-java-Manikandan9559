@@ -6,9 +6,9 @@ import TypewiseAlert.Constants.CoolingType;
 
 public class TypewiseAlert 
 {
-    private static FormatOutput output = new PrintOutput();
+    	private static FormatOutput output = new PrintOutput();
 
-	public class BatteryCharacter {
+	private class BatteryCharacter {
 		public CoolingType coolingType;
 	}
 	
@@ -21,12 +21,12 @@ public class TypewiseAlert
 		}
 	}
 	
-	public static void sendToController(BreachType breachType) {
+	private static void sendToController(BreachType breachType) {
 		int header = 0xfeed;
 		output.printf("%x : %s\n", header, breachType);
 	}
 	
-	public static void sendToEmail(BreachType breachType) {
+	private static void sendToEmail(BreachType breachType) {
 		String recepient = "a.b@c.com";
 		if(breachType.equals(BreachType.TOO_LOW)) {
 			output.printf("To: %s\n", recepient);
